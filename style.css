@@ -261,9 +261,19 @@ Utiliza las referencias de los breakpoints @media abajo */
     font-size: 1.5em;
 }
 /*Skills*/
-
+section.skills{
+    padding: 0 0 0 89px;
+}
+.skills__box{
+    padding: 20px;
+}
 /*Hobbies*/
- 
+section.hobbies{
+    padding: 0 0 0 89px;
+}
+.hobbies__box{
+    padding: 20px;
+}
 /*Formación Académica*/
 
 /*Experiencia Profesional*/
