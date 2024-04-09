@@ -126,7 +126,8 @@ section.skills{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 15px;
 }
 .skills__box{
     display: flex;
@@ -148,17 +149,18 @@ section.hobbies{
     
 }
 .hobbies__line{
-    width: 100%;
+
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 15px;
 }
 .hobbies__box{
     display: flex;
-    width: 200px;
+    width: 150px;
     height: 100px;
     background-color: var(--cor-de-fondo-secundario);
-    align-items: end;
+    
 }
 .hobbies__box ul{
     padding: 0;
