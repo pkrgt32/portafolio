@@ -142,14 +142,12 @@ section.skills{
 /*Sección Hobbies*/
 
 section.hobbies{
-    text-align: center;
     width: 100%;
     height: auto;
     padding: 15px;
     
 }
 .hobbies__line{
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -164,6 +162,7 @@ section.hobbies{
 }
 .hobbies__box ul{
     padding: 0;
+    
 }
 
 /* Experiencia Académica*/
