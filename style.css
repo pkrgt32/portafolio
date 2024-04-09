@@ -109,7 +109,13 @@ section.about{
     /* word-break: break-all; */
     overflow-wrap: break-word;
 }
-
+.about__container{
+    padding: 10px;
+    
+}
+.about__signature{
+    width: 55px;
+}
 /*Sección Hobbies*/
 
 section.hobbies{
@@ -208,7 +214,10 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Sección sobre mi*/
-
+.about__container{
+    padding: 0 450px 0 100px;
+    font-size: 1.5em;
+}
 /*Skills*/
 
 /*Hobbies*/
