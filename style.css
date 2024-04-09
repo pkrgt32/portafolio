@@ -68,9 +68,7 @@ section.menu{
 }
 
 /*Sección Title*/
-
 section.title{
-
     width: 100%;
     flex-wrap: wrap;
     background-color: var(--cor-de-fundo);
@@ -93,7 +91,6 @@ section.title{
     gap: 35px;
     font-size: .80em;
 }
-
 /*Sección About*/
 
 section.about{
