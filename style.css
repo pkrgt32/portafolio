@@ -98,8 +98,7 @@ section.title{
 
 section.about{
     width: 100%;
-    height: auto;
-    background-color:var(--cor-de-fondo-secundario);
+    height: auto;   
     justify-content: start;
     align-items: center;
     padding: 0 10px 0 10px;
@@ -133,7 +132,7 @@ section.skills{
     display: flex;
     width: 150px;
     height: 100px;
-    background-color: var(--cor-de-fondo-secundario);
+    
     align-items: end;
 }
 .skills__box ul{
@@ -142,10 +141,10 @@ section.skills{
 /*Sección Hobbies*/
 
 section.hobbies{
+    text-align: center;
     width: 100%;
     height: auto;
     padding: 15px;
-    
 }
 .hobbies__line{
     display: flex;
@@ -157,7 +156,7 @@ section.hobbies{
     display: flex;
     width: 150px;
     height: 100px;
-    background-color: var(--cor-de-fondo-secundario);
+    
     
 }
 .hobbies__box ul{
@@ -168,7 +167,21 @@ section.hobbies{
 /* Experiencia Académica*/
 
 section.academic{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ width: 100%;
+ flex-wrap: wrap;
+}
 
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
 }
 
 /* experiencia*/
@@ -221,7 +234,18 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Hobbies*/
 
 /*Formación Académica*/
-
+.academic__courses__box{
+    display: flex;
+    flex-direction: row;
+}
+.academic__courses{
+    display: flex;
+    gap: 100px ;
+}
+.academic__img{
+    width: 250px;
+    height: 190px;
+}
 /*Experiencia Profesional*/
 
 }
