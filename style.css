@@ -75,6 +75,7 @@ section.title{
     flex-wrap: wrap;
     background-color: var(--cor-de-fundo);
     padding: 0 10px 0 10px;
+    overflow-wrap: break-word;
 }
 .title__bio{
     font-size: 2em;
@@ -96,7 +97,7 @@ section.title{
 /*Sección About*/
 
 section.about{
-    width: 95%;
+    width: 100%;
     height: auto;
     background-color:var(--cor-de-fondo-secundario);
     justify-content: start;
@@ -106,20 +107,61 @@ section.about{
 }
 .about__paragraph{
     width: 100%;
-    /* word-break: break-all; */
     overflow-wrap: break-word;
 }
-.about__container{
-    padding: 10px;
+
+.about__signature{
+    width: 100px;
+}
+
+/* Sección de Skills */
+section.skills{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 15px;
     
 }
-.about__signature{
-    width: 55px;
+.skills__line{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills__box{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor-de-fondo-secundario);
+    align-items: end;
+}
+.skills__box ul{
+    padding: 0;
 }
 /*Sección Hobbies*/
 
 section.hobbies{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 15px;
     
+}
+.hobbies__line{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.hobbies__box{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor-de-fondo-secundario);
+    align-items: end;
+}
+.hobbies__box ul{
+    padding: 0;
 }
 
 /* Experiencia Académica*/
