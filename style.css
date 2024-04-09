@@ -19,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    width: 100%;
 }
 ol, ul,li {
     list-style: none;
@@ -32,6 +33,7 @@ a{
     width: 35px;
         
 }
+
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
@@ -94,7 +96,18 @@ section.title{
 /*Sección About*/
 
 section.about{
-
+    width: 95%;
+    height: auto;
+    background-color:var(--cor-de-fondo-secundario);
+    justify-content: start;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-size: .80em;
+}
+.about__paragraph{
+    width: 100%;
+    /* word-break: break-all; */
+    overflow-wrap: break-word;
 }
 
 /*Sección Hobbies*/
