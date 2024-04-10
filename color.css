@@ -5,12 +5,7 @@
     
 }
 
-button{
-    width: 25%;
-    height: 50px;
-    border-radius: 25px;
 
-}
 .experiencia__botao--repo:hover{
     background-color: var(--col-de-linl-decundario);
 }
