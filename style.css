@@ -195,14 +195,16 @@ section.experience{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding: 15px;
+    padding: 35px;
 }
 .experience__info-container{
-    width: 100%
+    width: 100%;
 }
 .experience__img{
     width: 100%;
     margin-bottom: 30px;
+    border-radius: 25px;
+    border: solid var(--cor-de-linl-decundario);
 }
 
 /*Contacto*/
@@ -220,7 +222,7 @@ section.formcontato{
     flex-direction: column;
     width: 100%;
     gap: 25px; 
-    padding: 30px;
+    padding: 35px;
 }
 .formcontato__img{
     display: none;
@@ -276,6 +278,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 .academic__img{
     width: 250px;
     height: 190px;
+
 }
 /*Experiencia Profesional*/
 
@@ -342,8 +345,7 @@ section.hobbies{
 .experience__img{
     width: 60%;
     margin-bottom: 30px;
-    border-radius: 25px;
-    border: solid var(--cor-de-linl-decundario);
+    
 }
 
  /*Contacto*/
