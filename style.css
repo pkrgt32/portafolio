@@ -11,7 +11,9 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
    --cor-de-fondo-secundario:#fff;
 }
-
+*{
+    padding: 0;
+}
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
@@ -194,13 +196,12 @@ section.experience{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin: 30px;
 }
 .experience__info-container{
     width: 100%
 }
 .experience__img{
-    width: 100%;
+    width: 600px;
     margin-bottom: 30px;
 }
 
@@ -318,6 +319,7 @@ section.hobbies{
     align-items: center;
     gap: 40px;
 }
+
  /*Contacto*/
 
 /*Footer*/
