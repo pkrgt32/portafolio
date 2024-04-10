@@ -11,9 +11,7 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
    --cor-de-fondo-secundario:#fff;
 }
-*{
-    padding: 0;
-}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
