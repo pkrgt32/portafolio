@@ -196,12 +196,13 @@ section.experience{
     flex-direction: column;
     width: 100%;
     align-items: center;
+    padding: 15px;
 }
 .experience__info-container{
     width: 100%
 }
 .experience__img{
-    width: 600px;
+    width: 60%;
     margin-bottom: 30px;
 }
 
