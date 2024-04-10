@@ -10,6 +10,7 @@ coloque nas sessões indicadas*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-de-fondo-secundario:#fff;
+   --cor-de-linl-decundario: #5ce1e6;
 }
 
 body {
@@ -200,14 +201,25 @@ section.experience{
     width: 100%
 }
 .experience__img{
-    width: 60%;
+    width: 100%;
     margin-bottom: 30px;
 }
 
 /*Contacto*/
 
 section.formcontato{
-
+    width: 100%;
+    margin: 25px;
+    
+}
+.formcontato__contacto{
+    margin-top: 25px;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px; 
 }
 .formcontato__img{
     display: none;
@@ -216,7 +228,14 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
-   
+   width: 100%;
+   margin-top: 25px;
+}
+.footer__rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
@@ -317,10 +336,26 @@ section.hobbies{
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 100px;
+}
+.experience__img{
+    width: 60%;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border: solid var(--cor-de-linl-decundario);
 }
 
  /*Contacto*/
-
+ .formcontato__img{
+    display:block;
+ }
+ .formcontato__contacto{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ 
 /*Footer*/
 
 }
