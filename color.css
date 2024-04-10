@@ -1,0 +1,37 @@
+:root{
+    --col-de-linl-decundario: #5ce1e6;
+    --col-de-letras: #292929;
+    --col-de-formato:#fff;
+    
+}
+
+button{
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+
+}
+.experiencia__botao--repo:hover{
+    background-color: var(--col-de-linl-decundario);
+}
+.boton__estilos--actibo{
+    background-color: var(--col-de-linl-decundario) ;
+    color: var(--cor-de-letras);
+
+}
+a:hover{
+ color: var(--col-de-linl-decundario);
+}
+
+.boton__estilos--actibo:hover{
+    background-color:var(--col-de-formato) ;
+}
+
+input{
+    border: solid var(--col-de-formato);
+    border-bottom: solid var(--col-de-linl-decundario);
+}
+.formcontato__textarea{
+    border: solid var(--col-de-formato);
+    border-bottom: solid var(--col-de-linl-decundario);
+}
