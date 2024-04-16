@@ -1,0 +1,39 @@
+.title{
+    padding: 20px 10px;
+    display: flex;
+}
+.title__div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title__profile{
+    width: 100px;
+    border-radius: 100%;
+}
+.title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title__network{
+    display: flex;
+    justify-content: space-between;
+}
+/* tablet */
+@media   (min-width: 600px) {
+    .title__div{
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+    }
+    .title__profile{
+        width: 50%;
+    }
+    
+}
+
+/* pc */
+@media (min-width: 1024px) {
+   
+}

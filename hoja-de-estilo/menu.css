@@ -1,0 +1,45 @@
+/* celular */
+.menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+.menu__imagen{
+    width: 30px;
+}
+.menu__list{
+    display: none;
+}
+.menu__list__item__contato{
+    display: flex;
+    align-items: center;
+}
+
+/* tablet */
+@media   (min-width: 600px) {
+    .menu__header{
+        display: flex;
+        align-items: self-end;
+    }
+}
+
+/* pc */
+@media (min-width: 1024px) {
+    .menu{
+        padding: 25px 100px;
+    }
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+    }
+    .menu__list__item__contato{
+        display: none;
+    }
+    
+}
