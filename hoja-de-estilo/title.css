@@ -1,14 +1,22 @@
 .title{
     padding: 20px 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .title__div{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+.title__bio{
+    font-size: 2.5em;
+}
+.title__subsection{
+    font-size: 1em;
+}
 .title__profile{
-    width: 100px;
+    width: 50% ;
     border-radius: 100%;
 }
 .title__container{
@@ -18,7 +26,7 @@
 }
 .title__network{
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
 }
 /* tablet */
 @media   (min-width: 600px) {
@@ -35,5 +43,18 @@
 
 /* pc */
 @media (min-width: 1024px) {
-   
+    .title__bio{
+        font-size: 3.5em;
+    }
+    .title__subsection{
+        font-size: 2em;
+    }
+    .title__network{
+        display: flex;
+        gap: 100px;
+    }
+    .title__div{
+        padding: 0px 15px;
+        gap: 5px;
+    }
 }

@@ -3,11 +3,11 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 .menu__header{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 .menu__imagen{
     width: 30px;
@@ -24,7 +24,6 @@
 @media   (min-width: 600px) {
     .menu__header{
         display: flex;
-        align-items: self-end;
     }
 }
 
