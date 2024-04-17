@@ -13,9 +13,13 @@
 .skills__line{
     display: flex;
     flex-wrap:wrap;
+    justify-content: space-between;
     gap: 10px;
-}
-.skills__box{
+
+
+}   
+
+.skills__box{   
     width: 100px;
     height: 100px;
     display: flex;
