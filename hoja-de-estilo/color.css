@@ -1,0 +1,33 @@
+/* colores  */
+:root{
+
+    --cor-de-fundo: #f6f6f6;
+    --cor-de-link: #000;
+    --cor-de-fondo-secundario:#EAF2FD;
+    --cor-de-linl-decundario: #5ce1e6; 
+    --cor-de-texto:#46a8ac;
+}
+
+.title__profile{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.about{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.skills__box{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.hobbies__box{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.academic{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.experiencia__botao--repo{
+ border: solid var(--cor-de-texto);
+ color: var(--cor-de-texto);
+}
+.experience__botao--demo{   
+    background-color: var(--cor-de-texto);
+   
+}

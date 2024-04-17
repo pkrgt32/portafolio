@@ -1,0 +1,96 @@
+.experience{
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.experience__section__title{
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+}
+
+.experience__img{
+    width: 99%;
+}
+.experience__info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 5px
+}
+.experience__title{
+    font-size: 1.5em;
+}
+.experience__text{
+    font-size: 1em;
+}
+.experience__description{
+    display: flex;
+    justify-content: stretch;
+    gap: 25px;
+    margin-top: 10px;
+
+}
+
+.experiencia__botao--repo{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+.experience__botao--demo{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.boton__estilos--hover:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+
+
+/* tablet */
+@media   (min-width: 600px) {
+   .experience__section__title{
+    font-size: 3em;
+  } 
+  .experience__img{
+    width: 99%;
+  }
+  .experience__title{
+    font-size: 2.5em;
+  }
+  .experience__text{
+    font-size: 2em;
+  }
+  .experiencia__botao--repo{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.experience__botao--demo{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+}
+
+/* pc */
+@media (min-width: 1024px) {
+    .experience__box{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .experience__img{
+        width: 70%;
+    }
+    .experience{
+        padding: 25px;
+    }
+}
