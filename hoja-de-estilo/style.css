@@ -1,18 +1,28 @@
 @import url(menu.css);
 @import url(title.css);
+@import url(sobr-mi.css);
+@import url(skills.css);
+
+
 
 /* colores  */
 :root{
+
     --cor-de-fundo: #f6f6f6;
     --cor-de-link: #000;
-    --cor-de-fondo-secundario:#fff;
+    --cor-de-fondo-secundario:#EAF2FD;
     --cor-de-linl-decundario: #5ce1e6; 
 }
 
 .title__profile{
 	background-color: var(--cor-de-fondo-secundario);
 }
-
+.about{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.skills__box{
+	background-color: var(--cor-de-fondo-secundario);
+}
 /* reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
