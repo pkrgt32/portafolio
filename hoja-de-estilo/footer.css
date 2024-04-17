@@ -1,6 +1,7 @@
 .footer{
     display: flex;
     justify-content: center;
+    margin: 25px;
 }
 .footer__rodape{
     display: flex;
