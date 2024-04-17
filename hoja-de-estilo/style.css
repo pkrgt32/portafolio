@@ -2,6 +2,8 @@
 @import url(title.css);
 @import url(sobr-mi.css);
 @import url(skills.css);
+@import url(Hobbies.css);
+@import url(Formación-académica.css);
 
 
 
@@ -21,6 +23,12 @@
 	background-color: var(--cor-de-fondo-secundario);
 }
 .skills__box{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.hobbies__box{
+	background-color: var(--cor-de-fondo-secundario);
+}
+.academic{
 	background-color: var(--cor-de-fondo-secundario);
 }
 /* reset */
